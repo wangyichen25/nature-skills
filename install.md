@@ -5,8 +5,8 @@ This fork is a local Codex skill repository, not a Python or npm package.
 ## Clone
 
 ```bash
-git clone https://github.com/wangyichen25/nejm-skills.git
-cd nejm-skills
+git clone https://github.com/wangyichen25/nejm-skills.git ~/.codex/repos/nejm-skills
+cd ~/.codex/repos/nejm-skills
 ```
 
 ## Install NEJM-Style Skills
@@ -49,7 +49,7 @@ On this machine, the active skills are managed as symlinks from:
 to the fork checkout under:
 
 ```text
-~/.codex/skill-forks/nejm-skills/
+~/.codex/repos/nejm-skills/
 ```
 
 If the checkout moves, recreate the symlinks with the install commands above.

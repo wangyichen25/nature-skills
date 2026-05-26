@@ -49,8 +49,8 @@ The original `nature-*` suite remains available for Nature/CNS-style scientific 
 Clone the fork:
 
 ```bash
-git clone https://github.com/wangyichen25/nejm-skills.git
-cd nejm-skills
+git clone https://github.com/wangyichen25/nejm-skills.git ~/.codex/repos/nejm-skills
+cd ~/.codex/repos/nejm-skills
 ```
 
 Install the NEJM-style skills:
