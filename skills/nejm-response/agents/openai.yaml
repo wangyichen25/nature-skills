@@ -1,0 +1,4 @@
+interface:
+  display_name: "NEJM Response"
+  short_description: "Reply to NEJM-style medical journal reviewers"
+  default_prompt: "Draft a point-by-point NEJM-style medical journal response letter with traceable manuscript changes, risk flags, and reporting-guideline checks."

@@ -1,4 +1,0 @@
-interface:
-  display_name: "Clinical Data"
-  short_description: "Draft clinical data availability statements"
-  default_prompt: "Draft a clinical-journal data, code, registry, protocol, and privacy availability statement for this study."

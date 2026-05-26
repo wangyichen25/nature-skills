@@ -1,0 +1,4 @@
+interface:
+  display_name: "NEJM Data"
+  short_description: "Draft medical data availability statements"
+  default_prompt: "Draft a NEJM-style medical-journal data, code, registry, protocol, and privacy availability statement for this study."

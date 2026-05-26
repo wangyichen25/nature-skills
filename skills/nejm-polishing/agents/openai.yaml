@@ -1,0 +1,4 @@
+interface:
+  display_name: "NEJM Polishing"
+  short_description: "Polish NEJM-style medical manuscript prose"
+  default_prompt: "Polish this NEJM-style medical manuscript text for a high-impact medical journal while preserving endpoints, denominators, uncertainty, and limitations."

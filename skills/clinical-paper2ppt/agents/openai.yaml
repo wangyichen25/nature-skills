@@ -1,4 +1,0 @@
-interface:
-  display_name: "Clinical PPT"
-  short_description: "Make clinical journal-club decks"
-  default_prompt: "Turn this clinical paper into an editable English journal-club PPTX with PICO, effect sizes, limitations, practice implications, and speaker notes."

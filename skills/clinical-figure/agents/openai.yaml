@@ -1,4 +1,0 @@
-interface:
-  display_name: "Clinical Figure"
-  short_description: "Build clinical research figures"
-  default_prompt: "Create or audit a clinical research figure with denominators, endpoints, uncertainty, and study-design-specific checks."

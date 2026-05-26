@@ -1,4 +1,0 @@
-interface:
-  display_name: "Clinical Writing"
-  short_description: "Draft clinical manuscript sections"
-  default_prompt: "Draft or restructure this clinical manuscript section with PICO, reporting-guideline fit, effect sizes, limitations, and precise clinical claims."

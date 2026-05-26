@@ -1,4 +1,0 @@
-interface:
-  display_name: "Clinical Citation"
-  short_description: "Find and export clinical references"
-  default_prompt: "Find PubMed-grounded clinical references for these claims, favoring Big Four and GI journals when relevant, and export a Vancouver/AMA-ready source list."

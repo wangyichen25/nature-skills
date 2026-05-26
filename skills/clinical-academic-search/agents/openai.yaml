@@ -1,4 +1,0 @@
-interface:
-  display_name: "Clinical Search"
-  short_description: "Search and triage clinical evidence"
-  default_prompt: "Build a PubMed-grounded clinical evidence search for this question, including PICO, source hierarchy, key findings, and evidence gaps."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "NEJM Search"
+  short_description: "Search and triage NEJM-style medical evidence"
+  default_prompt: "Build a PubMed-grounded NEJM-style medical evidence search for this question, including PICO, source hierarchy, key findings, and evidence gaps."
