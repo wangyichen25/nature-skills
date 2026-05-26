@@ -1,0 +1,45 @@
+{
+  "name": "nejm-skills",
+  "version": "1.0.0",
+  "description": "NEJM-style medical research skills plus preserved Nature/CNS-style academic skills.",
+  "author": {
+    "name": "wangyichen25",
+    "url": "https://github.com/wangyichen25"
+  },
+  "homepage": "https://github.com/wangyichen25/nejm-skills",
+  "repository": "https://github.com/wangyichen25/nejm-skills",
+  "license": "MIT",
+  "keywords": [
+    "nejm",
+    "medical",
+    "academic",
+    "science",
+    "figure",
+    "writing",
+    "citation",
+    "publication"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "NEJM Skills",
+    "shortDescription": "NEJM-style medical research and preserved Nature/CNS workflows",
+    "longDescription": "Use NEJM Skills for patient-oriented medical literature search, PubMed-grounded citations, medical manuscript writing and polishing, figures and tables, data availability statements, reviewer responses, paper readers, and paper-to-PPTX decks. The original Nature/CNS-style skills remain bundled.",
+    "developerName": "wangyichen25",
+    "category": "Research",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Find PubMed-grounded medical references for this claim.",
+      "Create an NEJM-style appraisal reader for this paper.",
+      "Draft an NEJM-style medical manuscript discussion."
+    ],
+    "websiteURL": "https://github.com/wangyichen25/nejm-skills",
+    "privacyPolicyURL": "https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement",
+    "termsOfServiceURL": "https://docs.github.com/en/site-policy/github-terms/github-terms-of-service",
+    "brandColor": "#2563EB",
+    "screenshots": []
+  }
+}

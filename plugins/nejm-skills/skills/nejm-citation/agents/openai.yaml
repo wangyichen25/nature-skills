@@ -1,0 +1,4 @@
+interface:
+  display_name: "NEJM Citation"
+  short_description: "Find and export medical references"
+  default_prompt: "Find PubMed-grounded patient-care references for these claims, favoring Big Four and GI journals when relevant, and export a Vancouver/AMA-ready source list."

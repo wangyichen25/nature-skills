@@ -1,14 +1,14 @@
 {
-  "name": "nature-skills",
+  "name": "nejm-skills",
   "interface": {
-    "displayName": "Nature Skills"
+    "displayName": "NEJM Skills"
   },
   "plugins": [
     {
-      "name": "nature-skills",
+      "name": "nejm-skills",
       "source": {
         "source": "local",
-        "path": "./plugins/nature-skills"
+        "path": "./plugins/nejm-skills"
       },
       "policy": {
         "installation": "AVAILABLE",

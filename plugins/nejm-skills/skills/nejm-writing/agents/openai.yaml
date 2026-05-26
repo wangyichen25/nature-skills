@@ -1,0 +1,4 @@
+interface:
+  display_name: "NEJM Writing"
+  short_description: "Draft NEJM-style medical manuscript sections"
+  default_prompt: "Draft or restructure this NEJM-style medical manuscript section with PICO, reporting-guideline fit, effect sizes, limitations, and precise patient-care claims."

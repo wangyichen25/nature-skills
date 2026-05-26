@@ -1,0 +1,4 @@
+interface:
+  display_name: "NEJM Figure"
+  short_description: "Build NEJM-style medical research figures"
+  default_prompt: "Create or audit a NEJM-style medical research figure with denominators, endpoints, uncertainty, and study-design-specific checks."

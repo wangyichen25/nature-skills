@@ -1,0 +1,4 @@
+interface:
+  display_name: "NEJM Reader"
+  short_description: "Read and appraise medical papers"
+  default_prompt: "Create an English NEJM-style medical appraisal reader for this paper with PICO, endpoints, effect sizes, harms, bias, and practice implications."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "NEJM PPT"
+  short_description: "Make NEJM-style medical journal-club decks"
+  default_prompt: "Turn this medical paper into an editable English journal-club PPTX with PICO, effect sizes, limitations, practice implications, and speaker notes."

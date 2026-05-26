@@ -1,20 +1,20 @@
 {
-  "name": "nature-skills",
+  "name": "nejm-skills",
   "version": "1.0.0",
-  "description": "Academic skills for Claude Code meeting Nature journal standards — scientific figures, manuscript polishing, citation management, data availability, and paper-to-presentation conversion",
+  "description": "NEJM-style medical research skills plus preserved Nature/CNS-style academic skills",
   "owner": {
-    "name": "Yuan1z0825"
+    "name": "wangyichen25"
   },
   "plugins": [
     {
-      "name": "nature-skills",
+      "name": "nejm-skills",
       "version": "1.0.0",
       "source": "./",
-      "description": "A growing collection of Claude skills for producing academic work at Nature-journal standard. Covers scientific figures, manuscript polishing, citation retrieval, data availability, and paper-to-presentation workflows.",
+      "description": "NEJM-style medical research skills plus preserved Nature/CNS-style academic workflows.",
       "author": {
-        "name": "Yuan1z0825"
+        "name": "wangyichen25"
       },
-      "keywords": ["nature", "academic", "science", "figure", "writing", "citation", "publication"],
+      "keywords": ["nejm", "medical", "academic", "science", "figure", "writing", "citation", "publication"],
       "category": "academic"
     }
   ]
