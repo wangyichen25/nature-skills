@@ -3,9 +3,7 @@
 A reviewer-response skill for drafting, auditing, and revising point-by-point response
 letters for Nature-family and high-impact journal manuscript revisions.
 
-This skill is bilingual-aware. It accepts Chinese or English reviewer comments, editor
-letters, author notes, and draft rebuttals, then prepares an English response package with
-Chinese author confirmation notes when useful.
+This skill accepts reviewer comments, editor letters, author notes, and draft rebuttals in any language, then prepares an English response package. Chinese or bilingual author confirmation notes are opt-in only when explicitly requested.
 
 ## What it does
 
@@ -26,7 +24,7 @@ Chinese author confirmation notes when useful.
 - responding to major or minor revision comments
 - turning reviewer comments into a manuscript change checklist
 - auditing a draft rebuttal for missing responses, tone problems, or unsupported claims
-- converting Chinese author notes into submission-ready English point-by-point replies
+- converting non-English author notes into submission-ready English point-by-point replies
 - deciding how to respectfully disagree with a reviewer or explain a scope boundary
 
 ## What it returns

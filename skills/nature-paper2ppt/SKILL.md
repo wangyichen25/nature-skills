@@ -1,10 +1,10 @@
 ---
 name: nature-paper2ppt
-description: Build a complete but efficient Nature-style Chinese PPTX presentation from a scientific paper, preprint, PDF, article text, abstract, figure legends, or reading notes. Use this skill whenever the user asks to make slides/PPT/PPTX for journal club, group meeting, paper sharing, thesis seminar, lab meeting, department report, or academic presentation from a research paper, not only medical papers. It identifies the paper type and argument, selects only the figures needed for the story, writes Chinese slide content and speaker notes, creates the actual .pptx deck, and runs an explicit self-review/corrective revision loop focused on figure quality, text overflow prevention, and non-template visual design before delivery.
+description: Build a complete but efficient Nature-style English PPTX presentation from a scientific paper, preprint, PDF, article text, abstract, figure legends, or reading notes. Use this skill whenever the user asks to make slides/PPT/PPTX for journal club, group meeting, paper sharing, thesis seminar, lab meeting, department report, or academic presentation from a research paper, not only medical papers. It identifies the paper type and argument, selects only the figures needed for the story, writes English slide content and speaker notes by default, creates the actual .pptx deck, and runs an explicit self-review/corrective revision loop focused on figure quality, text overflow prevention, and non-template visual design before delivery.
 ---
 
 # Purpose
-Transform a scientific paper or paper-derived notes into a complete Chinese, figure-integrated PPTX presentation package with a Nature-style reporting logic.
+Transform a scientific paper or paper-derived notes into a complete English, figure-integrated PPTX presentation package with a Nature-style reporting logic.
 
 The skill must not stop at an outline or script. The expected end product is a real `.pptx` deck. Keep supporting files minimal unless the user asks for more traceability.
 
@@ -77,7 +77,7 @@ The skill may receive:
 - an `input/source.md` file
 - a user-provided PPTX template
 
-Default output language is simplified Chinese unless the user requests otherwise. Preserve important technical terms, abbreviations, gene/protein names, model names, dataset names, equations, and statistical terms in English when needed.
+Default output language is English unless the user explicitly requests Chinese or bilingual output. Preserve important technical terms, abbreviations, gene/protein names, model names, dataset names, equations, and statistical terms in English when needed.
 
 # Default Fast Path
 For a normal selectable-text paper PDF, run the shortest complete path:
@@ -132,23 +132,23 @@ Then identify the best presentation logic:
 - `workflow-to-validation`: useful for datasets, atlases, omics, and benchmarks
 - `evidence-map`: useful for reviews and perspectives
 
-## Step 3. Build the Chinese presentation plan
+## Step 3. Build the presentation plan
 Default length: 12-16 slides for a 15-20 minute report.
 
 The default structure is:
-1. 标题页
-2. 研究背景：为什么这个问题重要
-3. 知识缺口 / 技术瓶颈
-4. 论文核心问题与主张
-5. 研究设计 / 技术路线 / 分析框架
-6. 关键证据1
-7. 关键证据2
-8. 关键证据3
-9. 验证、对照或稳健性证据
-10. 机制模型 / 方法优势 / 综合框架
-11. 创新点与可复用价值
-12. 局限性与未解决问题
-13. 总结与讨论
+1. Title
+2. Background: why this problem matters
+3. Knowledge gap or technical bottleneck
+4. Core question and claim
+5. Study design, workflow, or analytical framework
+6. Key evidence 1
+7. Key evidence 2
+8. Key evidence 3
+9. Validation, controls, or robustness evidence
+10. Mechanistic model, method advantage, or synthesis framework
+11. Novelty and reusable value
+12. Limitations and unresolved questions
+13. Summary and discussion
 
 Adapt this structure to the paper type. Do not force every paper into the same template.
 
@@ -232,14 +232,14 @@ Revise the crop before placing it in the PPTX when any scientific context is cut
 
 ## Step 6. Write slide-by-slide content
 For each slide, write:
-- Chinese title
+- English title
 - slide purpose
 - suggested layout
-- 3-4 concise Chinese bullets
+- 3-4 concise English bullets
 - selected figure or table asset, if any
-- Chinese figure caption and interpretation
+- English figure caption and interpretation
 - one core takeaway sentence
-- Chinese speaker note when oral explanation is useful
+- English speaker note when oral explanation is useful
 
 Each slide should make one point. Result slides should answer:
 - What does this figure show?
@@ -333,7 +333,7 @@ Use tools already available in the environment first. Install only the minimum P
 The PPTX should:
 - use 16:9 widescreen layout by default,
 - include the selected original figures,
-- use Chinese titles, bullets, captions, and speaker notes,
+- use English titles, bullets, captions, and speaker notes by default,
 - include source labels for figure slides,
 - keep slide text concise and readable,
 - use text boxes sized for their content, with conservative margins and no expected clipping,
@@ -530,11 +530,11 @@ Use a restrained Nature-style academic presentation design:
 - no decorative gradients,
 - no exaggerated marketing-style section pages.
 
-Use Chinese suitable for oral academic reporting:
-- avoid rigid translation,
+Use English suitable for oral academic reporting:
+- avoid rigid translation from non-English source notes,
 - avoid long paragraphs,
 - avoid jargon stacking,
-- preserve technical terms where Chinese translation would reduce precision,
+- preserve technical terms where translation or paraphrase would reduce precision,
 - prefer evidence-based interpretation over vague praise.
 
 Borrow Nature-style figure-page composition principles, but keep this skill self-contained and independent from any other skill. Treat each slide like a publication figure page: one dominant idea, one clear evidence hierarchy, and asymmetry when the story needs it.
@@ -553,11 +553,11 @@ Borrow Nature-style figure-page composition principles, but keep this skill self
 
 ### Typography system
 - Build a clear three-level hierarchy: title, body, caption/source. Do not let every text block look like the same font at slightly different sizes.
-- Use one Chinese sans-serif family for most copy and one English/number companion font for metrics, abbreviations, model names, DOI, and small metadata.
+- Use one clean sans-serif family for most copy and one optional numeric companion font for metrics, abbreviations, model names, DOI, and small metadata.
 - Prefer title sizes roughly in the 24-32 pt range, body copy in the 12-16 pt range, and source/caption text in the 7-9 pt range unless the template clearly calls for something else.
 - Let titles carry more weight than bullets. Large metrics may stand out, but they must not overpower the slide title or the main figure.
 - Keep captions and source labels lighter in color and smaller in size than the main argument text.
-- Avoid mixing many font families on one slide. One Chinese family plus one English/numeric companion is the default maximum.
+- Avoid mixing many font families on one slide. One primary text family plus one numeric companion is the default maximum.
 
 ### Figure-text coordination
 - Do not let figures look pasted onto the page. Pair them with a clear shared field: a tight frame, a caption edge, an interpretation rail, or a short takeaway strip.
@@ -585,14 +585,14 @@ Borrow Nature-style figure-page composition principles, but keep this skill self
 Include source information:
 - title slide: paper title, authors if useful, journal/preprint server, year, DOI if available,
 - figure slides: small labels such as `Source: Fig. 2b, Nature, 2024`,
-- adapted or redrawn content: label as `整理自` or `改绘自`,
+- adapted or redrawn content: label as `Adapted from` or `Redrawn from`,
 - do not remove original figure labels or alter scientific data.
 
 # Output Files
 Generate a minimal but complete output package by default.
 
-## 1. `output/final_presentation_cn.pptx`
-The main deliverable: a complete Chinese PPTX deck with figures, captions, takeaways, source labels, and speaker notes.
+## 1. `output/final_presentation.pptx`
+The main deliverable: a complete English PPTX deck with figures, captions, takeaways, source labels, and speaker notes.
 
 ## 2. `output/qa_report.md`
 A short quality report:

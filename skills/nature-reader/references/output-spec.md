@@ -14,7 +14,7 @@ Produce these files when possible:
 
 When the source is a full paper, include all pages or all extractable sections in the reader. Do not limit the bundle to selected pages, a teaser excerpt, or the abstract unless the user explicitly requests a preview.
 
-`paper.md` is the primary deliverable. It must expose paragraph-level bilingual alignment:
+`paper.md` is the primary deliverable. It must expose paragraph-level source alignment:
 
 ```markdown
 <a id="S001"></a>
@@ -22,10 +22,10 @@ When the source is a full paper, include all pages or all extractable sections i
 
 **Original:** ...
 
-**中文:** ...
+**Reader note:** ...
 ```
 
-For source material that cannot be extracted or translated confidently, keep the source anchor and write a visible uncertainty note instead of dropping the block.
+For source material that cannot be extracted or explained confidently, keep the source anchor and write a visible uncertainty note instead of dropping the block.
 
 ## `source_map.json`
 

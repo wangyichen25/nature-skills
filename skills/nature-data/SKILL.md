@@ -5,8 +5,9 @@ description: >-
   dataset citations, and FAIR metadata checklists for manuscripts. Use when the user asks about
   Nature data availability, research data sharing, repository selection, accession numbers,
   restricted or sensitive data, source data, supplementary datasets, DataCite-style dataset
-  references, FAIR metadata for academic publication, or Chinese-to-English data availability
-  wording for Chinese-speaking authors preparing Nature-family submissions.
+  references, FAIR metadata for academic publication, or data availability wording for
+  Nature-family submissions. Default response language is English unless the user explicitly
+  asks for Chinese or bilingual output.
 ---
 
 # Nature Data Availability Skill
@@ -18,14 +19,14 @@ flags.
 The governing policy layer is Springer Nature / Nature Portfolio data policy. The implementation
 layer is FAIR data practice and DataCite-style citation metadata.
 
-## Chinese-user operating mode
+## Non-English input mode
 
 When the user writes in Chinese, provides a Chinese manuscript note, or asks for "中文对应",
 "中英对照", "数据可用性声明", "数据获取声明", "原始数据", "数据存储库", or "受限数据":
 
-- Accept Chinese input naturally, but draft the final submission-ready statement in English unless
-  the user explicitly asks for Chinese only.
-- Preserve a short Chinese explanation of unresolved decisions when it helps the author act.
+- Accept Chinese input naturally, but draft the final submission-ready statement and notes in English unless
+  the user explicitly asks for Chinese or bilingual output.
+- Preserve a short Chinese explanation of unresolved decisions only when the user explicitly requests it.
 - Translate intent, not wording. Chinese phrases such as "可向通讯作者索取" are usually too vague
   for Nature-style English unless the restriction and access process are specified.
 - Convert Chinese repository/status descriptions into precise publication terms:
@@ -86,8 +87,8 @@ Repository and citation actions
 Missing information / risk flags
 - [specific flags or "None"]
 
-中文核对
-- [用中文列出作者需要确认的字段或 "无"]
+Author/language check
+- [only include Chinese or bilingual clarification when the user explicitly requests it]
 ```
 
 When auditing an existing statement, lead with blocking issues first, then provide a revised

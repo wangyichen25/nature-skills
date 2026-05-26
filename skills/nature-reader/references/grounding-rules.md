@@ -28,9 +28,9 @@ When the user asks a follow-up question about the paper:
 - Keep specialized terms stable.
 - Keep equations, units, symbols, and citations unchanged.
 - Do not over-simplify method steps.
-- If a term has no clear Chinese equivalent, keep the original term and add a short note.
-- Preserve paragraph-level original/Chinese alignment in `paper.md`.
-- Do not convert a full-paper translation request into a Chinese-only summary or critique.
+- If a term has no clear English paraphrase, keep the original term and add a short note.
+- Preserve paragraph-level original/reader-note alignment in `paper.md` by default.
+- Do not convert a full-paper reading request into a summary-only critique.
 - If a full English paragraph cannot be included because of source restrictions or extraction failure, keep the block anchor and explain the limitation in `translation_notes.md`.
 
 ## Figure and table rules
@@ -40,6 +40,6 @@ When the user asks a follow-up question about the paper:
 - If the claim relies on both text and figure, cite both.
 - If figure placement is uncertain, mark it as a layout approximation.
 - Extract figures/tables to `assets/` whenever possible.
-- Place each figure/table card near the first substantive mention in the bilingual text.
-- Include original caption, Chinese caption translation, and a short reading note.
+- Place each figure/table card near the first substantive mention in the reader text.
+- Include original caption and a short English reading note by default.
 - Do not use whole-page screenshots as figure/table replacements unless no tighter crop is possible; mark those as approximate.

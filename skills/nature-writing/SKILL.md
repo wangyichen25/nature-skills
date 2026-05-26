@@ -1,6 +1,6 @@
 ---
 name: nature-writing
-description: Draft, restructure, or plan Nature-style manuscript sections from author-provided claims, results, figures, notes, or Chinese drafts. Use when the user wants to write or rebuild an abstract, introduction, results narrative, discussion, conclusion, title, or full manuscript argument rather than only polish finished prose.
+description: Draft, restructure, or plan Nature-style manuscript sections from author-provided claims, results, figures, notes, or drafts in any language. Use when the user wants to write or rebuild an abstract, introduction, results narrative, discussion, conclusion, title, or full manuscript argument rather than only polish finished prose. Default output language is English unless the user explicitly asks for Chinese or bilingual output.
 version: 0.2.0
 author: Community contribution based on curated Nature/Nature Communications writing patterns and open research-writing notes
 ---
@@ -19,6 +19,7 @@ not merely polishing existing sentences.
 - Use ambitious but bounded claims.
 - If essential evidence is missing, write a placeholder or ask for the missing
   input instead of filling the gap.
+- Default output language is English. Do not add Chinese explanations unless the user explicitly asks for Chinese or bilingual output.
 
 ## When to open extra files
 
@@ -155,5 +156,4 @@ Default output:
 4. `Claim-evidence map:` for major claims, using `Claim: ... | Evidence: ... | Status: supported/needs evidence`.
 5. `Why this structure:` with `2-4` short bullets.
 
-For Chinese author notes, provide polished English first, then brief Chinese
-notes explaining major structural choices.
+For non-English author notes, provide polished English by default. Add Chinese or bilingual notes only when the user explicitly requests them.

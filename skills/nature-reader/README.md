@@ -6,9 +6,9 @@ Markdown-first reading workflow for full papers.
 
 `nature-reader` turns a PDF, DOI, arXiv link, publisher HTML page, or pasted manuscript into a complete Markdown reading artifact with:
 
-- paragraph-level original text and Chinese translation in prose form
+- paragraph-level original text and English reading notes in prose form by default
 - extracted figures and tables placed near the discussion that first substantively references them
-- original captions plus Chinese caption translations
+- original captions plus English interpretation by default
 - stable page and block anchors for traceability
 - tight figure crops and a full-document source map
 
@@ -38,4 +38,4 @@ Use this skill when the user asks for:
 ## Notes
 
 Do not use this skill for summaries, keyword bullets, or citation-only search tasks.
-When triggered, do not output only a Chinese summary. The default artifact is `paper.md` with visible `Original` / `中文` pairs and figure/table cards inserted at the relevant source locations.
+When triggered, do not output only a summary. The default artifact is `paper.md` with visible `Original` / `Reader note` pairs and figure/table cards inserted at the relevant source locations. Chinese or bilingual output is opt-in only when explicitly requested.

@@ -67,9 +67,9 @@ Ask only what is needed for the statement.
 | 使用了公开数据库。 | Public databases were used. | Name database, accession/version/date accessed, and cite dataset. |
 | 因隐私不能公开。 | Data cannot be public for privacy reasons. | Add de-identification status, access committee, eligibility, and agreement terms. |
 
-## Recommended bilingual output
+## Optional bilingual output
 
-When useful, provide English first and Chinese second:
+When explicitly requested, provide English first and Chinese second:
 
 ```text
 Data Availability

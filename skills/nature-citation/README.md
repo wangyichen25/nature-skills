@@ -2,7 +2,7 @@
 
 A citation-search skill for turning manuscript text or standalone claims into strict Nature / CNS-family reference exports with segment-level mapping and reference-manager-ready downloads.
 
-This skill is bilingual-aware. It accepts Chinese manuscript text and citation requests such as "分段引用", "Nature系列引用", "CNS及子刊", "补引用", "支撑文献", or "导出 Zotero", then searches with English scientific concepts while returning Chinese review notes by default.
+This skill is bilingual-aware. It accepts Chinese manuscript text and citation requests such as "分段引用", "Nature系列引用", "CNS及子刊", "补引用", "支撑文献", or "导出 Zotero", then searches with English scientific concepts while returning English review notes by default. Chinese review notes are opt-in only when explicitly requested.
 
 ## What it does
 

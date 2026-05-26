@@ -8,6 +8,7 @@ description: >-
   automatically get references, add citations to a paragraph/manuscript, find Nature-series or CNS
   support for statements, create text-to-reference correspondence, "分段引用", "自动给出引用",
   "Nature系列引用", "CNS及子刊", "支撑文献", "补引用", "找引用", or export EndNote/RIS/ENW/Zotero RDF.
+  Default response language is English unless the user explicitly asks for Chinese.
 ---
 
 # Nature Citation
@@ -18,16 +19,16 @@ Use this skill to turn manuscript text into a defensible citation export:
 - a reference-manager import file in `.enw`, `.ris`, or Zotero `.rdf`
 - conservative evidence notes explaining whether each candidate truly supports the segment
 
-## Chinese-user operating mode
+## Non-English input mode
 
 When the user writes in Chinese, asks for "Nature系列", "CNS及其子刊", "支撑文献",
 "补引用", "自动给出引用", "分段引用", "导出EndNote", "RIS", "Zotero", "RDF", or provides Chinese manuscript text:
 
 - Accept the text in Chinese, but search using English concept queries unless the topic is explicitly
   China-specific or Chinese-language scholarship.
-- Return segment notes and evidence notes in Chinese by default.
+- Return segment notes and evidence notes in English by default. Use Chinese only when the user explicitly requests Chinese output.
 - Preserve the exact source segment and translate it into one or more English search claims.
-- Flag overclaiming clearly in Chinese: `强支撑`, `部分支撑`, `背景支撑`, `不建议引用为该句支撑`.
+- Flag overclaiming clearly with English labels: `strong support`, `partial support`, `background support`, `not recommended as support for this sentence`.
 - Do not present a paper as supporting the claim merely because its title is related.
 
 ## Default scope

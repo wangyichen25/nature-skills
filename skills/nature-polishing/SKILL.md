@@ -24,6 +24,7 @@ the curated article-pattern reference. The wording layer should come from
 - Do not invent data, references, mechanisms, or novelty claims.
 - Do not let AI draft the paper's core scientific argument from scratch.
 - If the draft is Chinese or structurally rough, reconstruct the logic first and the prose second.
+- Default output language is English. Do not add Chinese explanations unless the user explicitly asks for Chinese or bilingual output.
 - Avoid em dashes in polished output by default. Prefer commas, parentheses, or full stops. Use colons sparingly unless the user explicitly asks to preserve dash-based punctuation or wants a colon-led style.
 
 ## When to open extra files

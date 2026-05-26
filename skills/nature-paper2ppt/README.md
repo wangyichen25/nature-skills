@@ -1,21 +1,21 @@
 # `nature-paper2ppt` skill
 
-A journal-club and lab-meeting skill for turning scientific papers into concise Chinese
+A journal-club and lab-meeting skill for turning scientific papers into concise English
 PowerPoint decks with a Nature-style evidence narrative.
 
 The skill accepts a paper PDF, preprint, article text, abstract plus figure legends, or
 structured reading notes. It identifies the paper type, extracts the scientific argument,
-selects only the figures that support that argument, writes Chinese slide content and
+selects only the figures that support that argument, writes English slide content and
 speaker notes, builds a real `.pptx`, and performs lightweight package QA.
 
 ## What it does
 
-- converts a scientific paper into a 10-16 slide Chinese presentation
+- converts a scientific paper into a 10-16 slide English presentation
 - keeps the paper's argument as the slide spine instead of copying section order
 - classifies the paper type before choosing the narrative logic
 - selects key figures, tables, or panels as evidence rather than decoration
 - crops dense figure panels when full figures would be unreadable
-- writes Chinese titles, concise bullets, captions, takeaways, and speaker notes
+- writes English titles, concise bullets, captions, takeaways, and speaker notes
 - creates an actual editable `.pptx` deck as the primary deliverable
 - records used figure assets in an asset manifest when figures are extracted
 - runs lightweight QA on slide count, embedded media, speaker notes, and PPTX package structure
@@ -42,7 +42,7 @@ nature-paper2ppt/
 
 - making a PPT or PPTX from a research paper PDF
 - preparing a journal club, group meeting, lab meeting, paper sharing, or thesis seminar
-- summarising a Nature-family paper into Chinese slides
+- summarising a Nature-family paper into English slides
 - turning article text, figure legends, or reading notes into a presentation
 - creating a figure-integrated deck rather than only an outline or summary
 - needing speaker notes, source labels, and a QA report for the deck
@@ -53,7 +53,7 @@ The expected default output is a small working folder containing:
 
 ```text
 output/
-├── final_presentation_cn.pptx
+├── final_presentation.pptx
 ├── qa_report.md
 ├── asset_manifest.md          # when source figures/tables are extracted
 └── assets/

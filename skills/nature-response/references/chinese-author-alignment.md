@@ -6,8 +6,8 @@ Use this file when the user writes in Chinese, provides Chinese author notes, or
 ## Default behavior
 
 - Accept Chinese reviewer summaries, author notes, manuscript-change notes, and mixed Chinese-English inputs.
-- Draft the final point-by-point response letter in English unless the user explicitly asks for Chinese only.
-- Keep a short `中文核对` section for unresolved author actions when it helps the author act.
+- Draft the final point-by-point response letter and action notes in English unless the user explicitly asks for Chinese or bilingual output.
+- Keep a short Chinese confirmation section only when the user explicitly requests Chinese or bilingual output.
 - Translate intent, not literal wording.
 - Convert vague Chinese notes into concrete response evidence requirements.
 
@@ -25,9 +25,9 @@ Use this file when the user writes in Chinese, provides Chinese author notes, or
 | `详见正文` | Not traceable | Require section, page, line, figure, table, or supplement |
 | `我们认为足够了` | Unsupported sufficiency claim | Explain what evidence addresses the concern or mark remaining limitation |
 
-## Chinese confirmation section
+## Optional Chinese confirmation section
 
-Use concise Chinese action notes:
+Use concise Chinese action notes only when explicitly requested:
 
 ```text
 中文核对
@@ -43,7 +43,7 @@ When the user supplies Chinese notes:
 1. Preserve reviewer comments in their supplied language unless asked to translate.
 2. Build the tracker using English action labels.
 3. Draft the response letter in polished English.
-4. Add `中文核对` only for decisions, missing facts, and high-risk issues.
+4. Add a Chinese confirmation section only when the user explicitly requests Chinese or bilingual output.
 
 ## Tone correction examples
 

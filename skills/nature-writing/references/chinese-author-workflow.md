@@ -33,10 +33,10 @@ Chinese sentence.
 
 Use this sequence:
 
-1. Summarize the author's intended claim in Chinese.
+1. Summarize the author's intended claim in English.
 2. Identify missing evidence or boundary.
 3. Draft the English paragraph.
-4. Add short Chinese notes explaining any structural changes.
+4. Add short Chinese notes explaining structural changes only when the user explicitly requests Chinese or bilingual output.
 
 Do not make the English sound like a literal translation. Make it sound like a
 Nature-style manuscript paragraph supported by the user's facts.

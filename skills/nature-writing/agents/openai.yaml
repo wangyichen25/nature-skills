@@ -1,4 +1,4 @@
 interface:
   display_name: "Nature Writing"
   short_description: "Draft Nature-style manuscript sections"
-  default_prompt: "Help me turn my claims, results, figures, or Chinese notes into a Nature-style manuscript section with a clear argument and claim-evidence map."
+  default_prompt: "Help me turn my claims, results, figures, or notes in any language into an English Nature-style manuscript section with a clear argument and claim-evidence map."

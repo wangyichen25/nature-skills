@@ -6,6 +6,7 @@ description: >-
   letters, revision notes, response drafts, or asks how to respond to major/minor
   revision requests, rebuttal letters, response to reviewers, peer-review reports,
   审稿意见回复, 逐点回复, 修回信, 大修回复, 小修回复, or 如何回复 reviewer.
+  Default response language is English unless the user explicitly asks for Chinese.
 version: 0.1.0
 status: Beta
 ---
@@ -84,8 +85,8 @@ Manuscript change checklist
 Missing information / risk flags
 - [specific unresolved items or "None"]
 
-中文核对
-- [when the user writes in Chinese; otherwise omit unless useful]
+Author/language check
+- [only include when the user explicitly asks for Chinese/bilingual handling or when source-language ambiguity materially affects the response]
 ```
 
 ## Red lines
