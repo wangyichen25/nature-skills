@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clinical Polishing"
+  short_description: "Polish clinical manuscript prose"
+  default_prompt: "Polish this clinical manuscript text for a high-impact medical journal while preserving endpoints, denominators, uncertainty, and limitations."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Clinical Reader"
+  short_description: "Read and appraise clinical papers"
+  default_prompt: "Create an English clinical appraisal reader for this paper with PICO, endpoints, effect sizes, harms, bias, and practice implications."
